@@ -1,0 +1,21 @@
+body{
+background-color: #7FFF00;
+
+}
+article{
+background-color: #40E0D0;
+width: 400px;
+border: solid 2px black;
+margin: 20px;
+padding: 50px;
+
+}
+
+article q{
+border: dashed 5px mediumvioletred;
+}
+
+article img {
+width: 200px;
+
+}
