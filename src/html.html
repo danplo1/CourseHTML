@@ -26,9 +26,28 @@
             }
 
         </script>
+
+    </script>
+
+        <script type="text/javascript">
+        function check()
+            {
+            var number = document.getElementById("field").value;
+
+            if(number>0)document.getElementById("wynik").innerHTML="dodatnia";
+                else if(number<0)document.getElementById("wynik").innerHTML="ujemna";
+                else if(number==0)document.getElementById.getElementById("wynik").innerHTML="zero";
+                else document.getElementById("wynik").innerHTML="To nie jest liczba.";
+        }
+        </script>
 </head>
 <<body onload="countingDown();">
 <div id="clock"></div>
+<input type="text" id="field"/>
+<input type="submit" value="Sprawdź" onclick="check()"/>
+<div id = "wynik"></div>
+
+
 <article>
     <header>
         <h1> Moja testowa strona internetowa by Akademia Kodu</h1>
